@@ -1,0 +1,20 @@
+{
+  "name": "wdd330-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelasmilford/wdd330-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelasmilford/wdd330-portfolio/issues"
+  },
+  "homepage": "https://github.com/angelasmilford/wdd330-portfolio#readme"
+}
