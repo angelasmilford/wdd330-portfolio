@@ -4,52 +4,46 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Angela S. Milford">
-        <meta name="description" content="An overview of the Meautau store.">
+        <meta name="description" content="An overview of the Meatau store.">
 
-        <title>Meautau</title>
+        <title>Meatau</title>
         
         <!--CSS and JS-->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script src="script.js" defer></script>
         
         <!--Favicon-->
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type=".../public/images/favicon.ico">
         
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Galindo&family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Galindo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <header class="divider">
-            <!--Logo-->
+        <header class="divider header-container" role="banner">
+            <!-- Logo-->
             <div class="logo">
-                <img src="/images/" alt="Meatau logo" />
-                <a href="./index.html">Meatau</a>
+                <a href="./index.html" aria-label="Go to homepage">
+                <img src="../public/images/logo.png" alt="Meatau Logo" class="logo-image" />
+                <span class="logo-text">Meatau</span>
+                </a>
             </div>
 
-            <!--Cart-->
-            <div class="cart">
-                <img src="cart-icon.png" alt="Cart Icon">
-                <span class="cart-count">0</span>
-            </div>
-
-            <!--Navigation-->
-            <nav>
-                <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="products.html">Shop</a></li>
-                    <li><a href="about.html">Product Detail</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <!-- Cart -->
+            <nav class="cart" aria-label="Shopping Cart">
+                <a href="./cart/index.html" class="cart-link" aria-label="View shopping cart">
+                <img src="../public/images/cart.png" alt="" aria-hidden="true" class="cart-icon" />
+                <span class="cart-count" aria-live="polite" aria-atomic="true">0</span>
+                </a>
             </nav>
         </header>
 
         <main>
             <!--Hero Image-->
             <div class="hero-container">
-                <img src="./public/images/hero image.jpg" alt="Hero Image" class="hero-img">
+                <img src="../public/images/hero.jpg" alt="Hero Image" class="hero-img">
                 <div class="hero-text">&copy; Auguste Edouart – South Sea Islanders Silhouette (1826–1861)</div>
             </div>
 
@@ -65,6 +59,37 @@
                 <p>
                     The design and use of these weapons varied greatly among the different island cultures, reflecting their unique traditions and combat strategies.
                 </p>
+            </section>
+
+            <!--Products-->
+            <section class="products">
+                <h1>Top Products</h1>
+
+                <div class="weapon-selector">
+                    <a href="spear.html" class="weapon">
+                        <img src="../public/images/spear.png" alt="Spear">
+                    </a>
+                    
+                    <a href="thrower.html" class="weapon">
+                        <img src="../public/images/thrower.png" alt="Slingshot">
+                    </a>
+                    
+                    <a href="ceremonial.html" class="weapon">
+                        <img src="../public/images/ceremonial.png" alt="Crown">
+                    </a>
+                    
+                    <a href="toothed.html" class="weapon">
+                        <img src="../public/images/tooth.png" alt="Tooth">
+                    </a>
+                    
+                    <a href="club.html" class="weapon">
+                        <img src="../public/images/club.png" alt="Club">
+                    </a>
+                    
+                    <a href="shield.html" class="weapon">
+                        <img src="../public/images/shield.png" alt="Shield">
+                    </a>
+                </div>
             </section>
         </main>
 
