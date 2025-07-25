@@ -4,14 +4,14 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    font-family: "Josefin Sans", sans-serif;
-    background-color: #F4EBD0;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(255, 227, 197);
 }
 
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
@@ -67,8 +67,8 @@ header{
   position: absolute;
   top: -8px;
   right: -8px;
-  background: #e53e3e; /* red */
-  color: white;
+  background: white;
+  color: black;
   font-size: 0.75rem;
   font-weight: bold;
   border-radius: 50%;
@@ -95,6 +95,7 @@ main{
   width: 100%;
   height: auto;
   display: block;
+  border-bottom: 3px solid #6B4C3B;
 }
 
 .hero-text {
@@ -110,24 +111,24 @@ main{
 }
 
 .overview{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 80px;   
-    font-size: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;   
+  font-size: 20px; 
 }
 
 .products h1{
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .weapon-selector {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 50px;
   padding: 20px;
 }
 
@@ -140,10 +141,70 @@ main{
 }
 
 .weapon img {
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130x;
   object-fit: contain;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  color: darkred;
+}
+
+.weapon-selector {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.weapon {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon img {
+  margin-bottom: 8px;
+  object-fit: contain;
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  color: darkred;
+}
+
+
+/*Shop page*/
+.weapon-selector {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.weapon {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon img {
+  margin-bottom: 8px;
+  object-fit: contain;
 }
 
 .weapon:hover {
@@ -153,21 +214,22 @@ main{
 
 
 
+
 /*FOOTER*/
 footer{
-    padding: 15px;
+  padding: 15px;
 }
 
 footer p{
-    text-align: center;
+  text-align: center;
 }
 
 
 header, footer{
-    background-color: #6B4C3B;
-    color: white;
+  background-color: #6B4C3B;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Galindo", sans-serif;
+  font-family: "Galindo", sans-serif;
 }

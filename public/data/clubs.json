@@ -1,0 +1,42 @@
+[
+    {
+        "id": "clubs01",
+        "name": "Uatogi",
+        "category": "Club",
+        "subregion": "Polynesia",
+        "country": "Samoa",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/315917/preview",
+    }, 
+    {
+        "id": "clubs02",
+        "name": "PNG Club",
+        "category": "Club",
+        "subregion": "Melanesia",
+        "country": "Papua New Guinea",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/219933/preview",
+    },
+    {
+        "id": "clubs03",
+        "name": "NC Club",
+        "category": "Club",
+        "subregion": "Melanesia",
+        "country": "New Caledonia",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/219945/preview",
+    },
+    {
+        "id": "clubs04",
+        "name": "SI Club",
+        "category": "Club",
+        "subregion": "Melanesia",
+        "country": "Solomon Islands",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/315869/preview",
+    }
+]

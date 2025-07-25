@@ -10,10 +10,10 @@
         
         <!--CSS and JS-->
         <link rel="stylesheet" href="css/styles.css">
-        <script src="script.js" defer></script>
+        <script src="js/script.js" defer></script>
         
         <!--Favicon-->
-        <link rel="icon" href="favicon.ico" type=".../public/images/favicon.ico">
+        <link rel="icon" href="../public/images/favicon.ico" type="image/png">
         
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,23 +22,7 @@
     </head>
 
     <body>
-        <header class="divider header-container" role="banner">
-            <!-- Logo-->
-            <div class="logo">
-                <a href="./index.html" aria-label="Go to homepage">
-                <img src="../public/images/logo.png" alt="Meatau Logo" class="logo-image" />
-                <span class="logo-text">Meatau</span>
-                </a>
-            </div>
-
-            <!-- Cart -->
-            <nav class="cart" aria-label="Shopping Cart">
-                <a href="./cart/index.html" class="cart-link" aria-label="View shopping cart">
-                <img src="../public/images/cart.png" alt="" aria-hidden="true" class="cart-icon" />
-                <span class="cart-count" aria-live="polite" aria-atomic="true">0</span>
-                </a>
-            </nav>
-        </header>
+        <header class="divider header-container" role="banner" id="header"></header>
 
         <main>
             <!--Hero Image-->
@@ -66,35 +50,29 @@
                 <h1>Top Products</h1>
 
                 <div class="weapon-selector">
-                    <a href="spear.html" class="weapon">
+                    <a href="./pages/shop.html?category=spear" class="weapon">
                         <img src="../public/images/spear.png" alt="Spear">
                     </a>
-                    
-                    <a href="thrower.html" class="weapon">
-                        <img src="../public/images/thrower.png" alt="Slingshot">
-                    </a>
-                    
-                    <a href="ceremonial.html" class="weapon">
+
+                    <a href="./pages/shop.html?category=ceremonial" class="weapon">
                         <img src="../public/images/ceremonial.png" alt="Crown">
                     </a>
-                    
-                    <a href="toothed.html" class="weapon">
-                        <img src="../public/images/tooth.png" alt="Tooth">
+
+                    <a href="./pages/shop.html?category=toothed" class="weapon">
+                        <img src="../public/images/tooth.png" alt="Toothed Weapon">
                     </a>
-                    
-                    <a href="club.html" class="weapon">
+
+                    <a href="./pages/shop.html?category=club" class="weapon">
                         <img src="../public/images/club.png" alt="Club">
                     </a>
-                    
-                    <a href="shield.html" class="weapon">
+
+                    <a href="./pages/shop.html?category=shield" class="weapon">
                         <img src="../public/images/shield.png" alt="Shield">
                     </a>
                 </div>
             </section>
         </main>
 
-        <footer>
-            <p>&copy; 2025 Angela S. Milford</p>
-        </footer>
+        <footer id="footer"></footer>
     </body>
 </html>

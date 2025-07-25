@@ -1,0 +1,42 @@
+[
+    {
+        "id": "spear01",
+        "name": "PNG Spear",
+        "category": "Spear",
+        "subregion": "Melanesia",
+        "country": "Papua New Guinea",
+        "price": ,
+        "material": "Bone, Fiber, Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/221842/preview",
+    }, 
+    {
+        "id": "spear02",
+        "name": "CI Spear",
+        "category": "Spear",
+        "subregion": "Polynesia",
+        "country": "Cook Islands",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/119161/preview",
+    },
+    {
+        "id": "spear03",
+        "name": "CI Stabbing Spear",
+        "category": "Spear",
+        "subregion": "Polynesia",
+        "country": "Cook Islands",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/119158/preview",
+    },
+    {
+        "id": "spear04",
+        "name": "Aitutaki Spear",
+        "category": "Spear",
+        "subregion": "Polynesia",
+        "country": "Cook Islands",
+        "price": ,
+        "material": "Wood",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/119159/preview",
+    }
+]
