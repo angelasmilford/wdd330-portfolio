@@ -1,0 +1,150 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 3px solid #6B4C3B;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: white;
+  background-color: #6B4C3B;
+  opacity: 0.8;
+  padding: 12px 20px;
+  font-size: 21px;
+  border-radius: 4px;
+}
+
+.overview{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;   
+  font-size: 20px; 
+}
+
+.products h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weapon-selector {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+
+.weapon {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.weapon img {
+  width: 130px;
+  height: 130x;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  color: darkred;
+}
+
+.weapon-selector {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.weapon {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon img {
+  margin-bottom: 8px;
+  object-fit: contain;
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  color: darkred;
+}
+
+
+/*Shop page*/
+.weapon-selector {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.weapon {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon img {
+  margin-bottom: 8px;
+  object-fit: contain;
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  color: darkred;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  padding: 20px;
+}
+
+button {
+  background-color: #6B4C3B;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 21px;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+}

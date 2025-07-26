@@ -5,9 +5,9 @@
         "category": "Spear",
         "subregion": "Melanesia",
         "country": "Papua New Guinea",
-        "price": ,
+        "price": 1000,
         "material": "Bone, Fiber, Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/221842/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/221842/preview"
     }, 
     {
         "id": "spear02",
@@ -15,9 +15,9 @@
         "category": "Spear",
         "subregion": "Polynesia",
         "country": "Cook Islands",
-        "price": ,
+        "price": 1200,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/119161/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/119161/preview"
     },
     {
         "id": "spear03",
@@ -25,9 +25,9 @@
         "category": "Spear",
         "subregion": "Polynesia",
         "country": "Cook Islands",
-        "price": ,
+        "price": 990,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/119158/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/119158/preview"
     },
     {
         "id": "spear04",
@@ -35,9 +35,9 @@
         "category": "Spear",
         "subregion": "Polynesia",
         "country": "Cook Islands",
-        "price": ,
+        "price": 1300,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/119159/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/119159/preview"
     },
 
     {
@@ -46,9 +46,9 @@
         "category": "Ceremonial",
         "subregion": "Melanesia",
         "country": "New Caledonia",
-        "price": ,
+        "price": 2500,
         "material": "Stone, Wood, Hardwood, Sennit, Cord",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/55394/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/55394/preview"
     }, 
     {
         "id": "ceremonial02",
@@ -56,9 +56,9 @@
         "category": "Ceremonial",
         "subregion": "Polynesia",
         "country": "Cook Islands",
-        "price": ,
+        "price": 2000,
         "material": "Wood, Stone, Sharkskin, Sennit",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/219940/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/219940/preview"
     },
     {
         "id": "ceremonial03",
@@ -66,9 +66,9 @@
         "category": "Ceremonial",
         "subregion": "Polynesia",
         "country": "Tahiti",
-        "price": ,
+        "price": 2300,
         "material": "Wood, Human Hair, Plant Fiber",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/159652/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/159652/preview"
     },
     {
         "id": "ceremonial04",
@@ -76,9 +76,9 @@
         "category": "Ceremonial",
         "subregion": "Polynesia",
         "country": "Tahiti",
-        "price": ,
+        "price": 2900,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/159575/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/159575/preview"
     },
 
     {
@@ -87,9 +87,9 @@
         "category": "Toothed",
         "subregion": "Micronesia",
         "country": "Kiribati",
-        "price": ,
+        "price": 4500,
         "material": "Tooth, Husk, Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/159178/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/159178/preview"
     }, 
     {
         "id": "toothed02",
@@ -97,29 +97,29 @@
         "category": "Toothed",
         "subregion": "Micronesia",
         "country": "Kiribati",
-        "price": ,
+        "price": 4000,
         "material": "Wood, Plant Fiber, Tooth",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/206112/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/206112/preview"
     },
     {
         "id": "toothed03",
-        "name": "Leiomanō ",
+        "name": "Leiomanō",
         "category": "Toothed",
         "subregion": "Polynesia",
         "country": "Hawai'i",
-        "price": ,
+        "price": 3000,
         "material": "Wood, Tooth, Coir",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/79861/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/79861/preview"
     },
     {
-        "id": "Toothed04",
+        "id": "toothed04",
         "name": "Miniature Sword",
         "category": "Toothed",
         "subregion": "Micronesia",
         "country": "Kiribati",
-        "price": ,
+        "price": 3000,
         "material": "Tooth, Wood, Human Hair, Bone, Plant Fiber, Palm Leaf",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/159162/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/159162/preview"
     },
 
     {
@@ -128,9 +128,9 @@
         "category": "Club",
         "subregion": "Polynesia",
         "country": "Samoa",
-        "price": ,
+        "price": 2500,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/315917/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/315917/preview"
     }, 
     {
         "id": "clubs02",
@@ -138,9 +138,9 @@
         "category": "Club",
         "subregion": "Melanesia",
         "country": "Papua New Guinea",
-        "price": ,
+        "price": 2000,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/219933/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/219933/preview"
     },
     {
         "id": "clubs03",
@@ -148,9 +148,9 @@
         "category": "Club",
         "subregion": "Melanesia",
         "country": "New Caledonia",
-        "price": ,
+        "price": 2100,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/219945/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/219945/preview"
     },
     {
         "id": "clubs04",
@@ -158,9 +158,9 @@
         "category": "Club",
         "subregion": "Melanesia",
         "country": "Solomon Islands",
-        "price": ,
+        "price": 2200,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/315869/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/315869/preview"
     },
 
     {
@@ -169,9 +169,9 @@
         "category": "Shield",
         "subregion": "Melanesia",
         "country": "Papua New Guinea",
-        "price": ,
+        "price": 3000,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/282299/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/282299/preview"
     }, 
     {
         "id": "shield02",
@@ -179,9 +179,9 @@
         "category": "Shield",
         "subregion": "Melanesia",
         "country": "Papua New Guinea",
-        "price": ,
+        "price": 2800,
         "material": "Wood, Pigment",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/282272/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/282272/preview"
     },
     {
         "id": "shield03",
@@ -189,9 +189,9 @@
         "category": "Shield",
         "subregion": "Melanesia",
         "country": "Papua New Guinea",
-        "price": ,
+        "price": 2400,
         "material": "Wood, Pigment",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/282279/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/282279/preview"
     },
     {
         "id": "shield04",
@@ -199,8 +199,8 @@
         "category": "Shield",
         "subregion": "Melanesia",
         "country": "Solomon Islands",
-        "price": ,
+        "price": 3000,
         "material": "Wood",
-        "imageUrl": "https://media.tepapa.govt.nz/collection/282286/preview",
+        "imageUrl": "https://media.tepapa.govt.nz/collection/282286/preview"
     }
 ]

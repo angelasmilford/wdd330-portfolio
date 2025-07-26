@@ -1,6 +1,15 @@
-/*BODY*/
-:root{
+@import "partials/header.css";
+@import "partials/footer.css";
+@import "partials/home.css";
+@import "partials/shop.css";
+@import "partials/product-detail.css";
+@import "partials/cart.css";
 
+:root{
+  --background-color: rgb(255,227,197);
+  --header_footer: #6B4C3B; 
+  --title: font-family: "Galindo", sans-serif;
+  --text: 
 }
 
 body{
@@ -14,220 +23,8 @@ body{
   box-sizing: border-box;
 }
 
-
-/*HEADER*/
-header{
-
-}
-
-.divider{
-
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #ccc;
-}
-
-.logo a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.logo-image {
-  height: 40px;
-  margin-right: 0.5rem;
-}
-
-.logo-text {
-  font-family: "Galindo", sans-serif;
-}
-
-.cart-link {
-  position: relative;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-}
-
-.cart-icon {
-  height: 30px;
-  width: 30px;
-}
-
-.cart-count {
-  position: absolute;
-  top: -8px;
-  right: -8px;
-  background: white;
-  color: black;
-  font-size: 0.75rem;
-  font-weight: bold;
-  border-radius: 50%;
-  padding: 2px 6px;
-  min-width: 20px;
+h1{
   text-align: center;
-}
-
-
-
-/*MAIN*/
-main{
-
-}
-
-.hero-container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-bottom: 3px solid #6B4C3B;
-}
-
-.hero-text {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  color: white;
-  background-color: #6B4C3B;
-  opacity: 0.8;
-  padding: 12px 20px;
-  font-size: 21px;
-  border-radius: 4px;
-}
-
-.overview{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 80px;   
-  font-size: 20px; 
-}
-
-.products h1{
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.weapon-selector {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  padding: 20px;
-}
-
-.weapon {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: transform 0.2s ease;
-}
-
-.weapon img {
-  width: 130px;
-  height: 130x;
-  object-fit: contain;
-  margin-bottom: 20px;
-}
-
-.weapon:hover {
-  transform: scale(1.1);
-  color: darkred;
-}
-
-.weapon-selector {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.weapon {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: transform 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.weapon img {
-  margin-bottom: 8px;
-  object-fit: contain;
-}
-
-.weapon:hover {
-  transform: scale(1.1);
-  color: darkred;
-}
-
-
-/*Shop page*/
-.weapon-selector {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.weapon {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: transform 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.weapon img {
-  margin-bottom: 8px;
-  object-fit: contain;
-}
-
-.weapon:hover {
-  transform: scale(1.1);
-  color: darkred;
-}
-
-
-
-
-/*FOOTER*/
-footer{
-  padding: 15px;
-}
-
-footer p{
-  text-align: center;
-}
-
-
-header, footer{
-  background-color: #6B4C3B;
-  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {

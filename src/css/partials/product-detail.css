@@ -1,0 +1,14 @@
+#weapon-details{
+    text-decoration: none;
+    background-color: #C4A484;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+main{
+    padding: 30px;
+}
